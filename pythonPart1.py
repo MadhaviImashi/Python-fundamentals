@@ -135,7 +135,7 @@ print(age)
 print(country)
 #when u've created a Tuple, u can't delete any item in that tuple dirrectly. if u want then u'll have to convert it to a List and then delete
 
-                                        #Slicing data in a List/tuple/String-------------------------------------------------------
+                    #Slicing data in a List/tuple/String-------------------------------------------------------
 
 #data in a list can be easily extracted to a new variable easily by sending the 2 parameters(starting index, ending index of the data range that u want)
 listX = ['a', 'b', 'c', 'd']
@@ -149,3 +149,10 @@ s1 = "Hello world"
 x = s1[ 0 : -1] #this will ignore the last char in the string
 print(x)
 print("character in index 3: "+ x[3]) #u can also get a one char in the string by calling its index like this
+
+                    #define a function
+def meow():
+    print("meoww")
+
+for i in range(3):
+    meow()
